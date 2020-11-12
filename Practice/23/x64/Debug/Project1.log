@@ -1,8 +1,0 @@
-﻿  Source.cpp
-C:\Users\Пользователь\Desktop\Project1\f2.h(7,7): error C2082: переопределение формального параметра "i"
-C:\Users\Пользователь\Desktop\Project1\f2.h(7,10): error C2082: переопределение формального параметра "x"
-C:\Users\Пользователь\Desktop\Project1\f2.h(9,22): error C2065: k: необъявленный идентификатор
-C:\Users\Пользователь\Desktop\Project1\f2.h(10,3): error C2065: res: необъявленный идентификатор
-C:\Users\Пользователь\Desktop\Project1\f2.h(10,66): error C2660: Factorial: функция не принимает 1 аргументов
-C:\Users\Пользователь\Desktop\Project1\f1.h(4,6): message : см. объявление "Factorial"
-C:\Users\Пользователь\Desktop\Project1\f2.h(6): fatal error C1075: "{": не найдена несоответствующая лексема
