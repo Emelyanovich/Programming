@@ -1,0 +1,5 @@
+﻿  27.cpp
+C:\Users\Пользователь\Desktop\Programming\Practice\27\C++\27\27\27.cpp(4,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\Пользователь\Desktop\Programming\Practice\27\C++\27\27\27.cpp(28,136): error C2563: несоответствие в списке формальных параметров
+C:\Users\Пользователь\Desktop\Programming\Practice\27\C++\27\27\27.cpp(28,136): error C2568: <<: не удается разрешить перегрузку функции
+C:\Users\Пользователь\Desktop\Programming\Practice\27\C++\27\27\27.cpp(28,136): message : может быть "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
