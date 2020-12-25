@@ -1,8 +1,9 @@
 ﻿#include "stdafx.h"
 #include <iostream>
+#include <vector>
+#include <map>
 #include <locale>
 
-using namespace std;
 
 struct Student
 {
@@ -18,33 +19,35 @@ int main();
     Student* stud = new Student[count_students];
     for (int i = 0; i < count_students; i++)
     {
-        cout << "Введите фамилию и первую буква имени студента #" << i + 1 << ": ";
-        cin >> stud[i].name;
-        cout << endl << "Введите номер группы студента (целое число)#" << i + 1 << ": ";
-        cin >> stud[i].group;
-        cout << endl << "Введите результаты экзаменов по 5-ти бальной шкале #" << i + 1 << ": ";
+        std::cout << "Введите фамилию и первую буква имени студента #" << i + 1 << ": ";
+        std::cin >> stud[i].name;
+        std::cout << endl << "Введите номер группы студента (целое число)#" << i + 1 << ": ";
+        std::cin >> stud[i].group;
+        std::cout << endl << "Введите результаты экзаменов по 5-ти бальной шкале #" << i + 1 << ": ";
         for (int j = 0; j < 5; j++)
         {
-            cin >> stud[i].exams[j];
+            std::cin >> stud[i].exams[j];
         }
     }
     cout << endl;
-    for (int i = 0; i < count_students; i++)
-    {
-        for (int j = 0; j < 5; j++)
-        {
-            if (((stud[i].exams[j]) == 3) || ((stud[i].exams[j]) == 4)) || (stud[i].exams[j]) == 5) )
-            {
-            cout << stud[i].fio << " " << stud[i].group;
-            cout << endl;
-            }
-            else;
-            {
-                cout << "Not found";
-                cout << endl;
-            }
+    std::vector<Student>ozenka_dva;
+    for (int i = 0; i < 10; i++) {
+        if ((vec[i].exams["Math"] == 2) || (vec[i].exams["Phys"] == 2) ||
+            (vec[i].exams["Hist"] == 2) || (vec[i].exams["Prog"] == 2)) {
+            ozenka_dva.push_back(vec[i]);
         }
     }
+
+    std::cout << BozoSort(ozenka_dva) << std::endl;
+    std::cout << "Expulsion" << "\n\n";
+    srand(time(NULL));
+    if (ozenka_dva() > 0) {
+        std::cout << ozenka_dva[rand() % ozenka_dva.size()];
+    }
+    else {
+        std::cout << "Not found";
+    }
+ 
     cout << endl;
     system("pause");
     return 0;
