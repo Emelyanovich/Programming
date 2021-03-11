@@ -33,7 +33,7 @@
 <h2> Выполнение работы </h2>
 <p> Первым делом я ознакомилась с api openweathermap и worldtimeapi, получила все необходимые запросы.<br>
 
-1.	Для получения API Key я зарегистрировался на сайте http://openweathermap.org/. После регистрации в разделе API Keys получила свой API ключ для получения данных с сайта: b2b3ee6584c212f68d9b1a364c6e963e<br>
+1.	Для получения API Key я зарегистрировалась на сайте http://openweathermap.org/. После регистрации в разделе API Keys получила свой API ключ для получения данных с сайта: b2b3ee6584c212f68d9b1a364c6e963e<br>
 
 2. В пункте 1.7 составлен следующий запрос: http://api.openweathermap.org/data/2.5/onecall?lat=44.95719&lon=34.11079&exclude=current,minutely,daily,alerts&units=metric&lang=ru&appid=b2b3ee6584c212f68d9b1a364c6e963e3.<br>
 
