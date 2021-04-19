@@ -6,6 +6,7 @@
 #include <string>
 #include "point.h"
 
+
 const auto PI = 3.141592653589793;
 
 int main() {
@@ -18,7 +19,7 @@ int main() {
         while (!fin.eof()) {
             Point p;
             fin >> p;
-            fin.ignore(2); // Точки разделены двумя символами ", "
+            fin.ignore(2);
             original.push_back(p);
         }
         fin.close();
